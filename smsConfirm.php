@@ -51,4 +51,4 @@ $smsController->setErrorCode(0);
 /*
  * Acesta este mesajul primit de client daca nu a intervenit nici o eroare.
  */
-$smsController->reply('Ai cumpărat '. $_GET['md'] .' monede de dragon. Folosește codul '. $random_code .' pentru a revendica monedele.');
+$smsController->reply('Mesajul dumneavoastra a fost primit si procesat.');
